@@ -1,0 +1,126 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.j  s):
+  TypeError: this[NS] is not a function
+  
+  - loader.js:148 childCompiler.runAsChild
+    [mini-css-extract-plugin-NS-bug]/[mini-css-extract-plugin]/dist/loader.js:14    8:15
+  
+  - Compiler.js:296 compile
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compiler.js:296:11
+  
+  - Compiler.js:553 hooks.afterCompile.callAsync.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compiler.js:553:14
+  
+  
+  - Hook.js:35 AsyncSeriesHook.lazyCompileHook [as _callAsync]
+    [mini-css-extract-plugin-NS-bug]/[tapable]/lib/Hook.js:35:21
+  
+  - Compiler.js:550 compilation.seal.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compiler.js:550:30
+  
+  
+  - Hook.js:35 AsyncSeriesHook.lazyCompileHook [as _callAsync]
+    [mini-css-extract-plugin-NS-bug]/[tapable]/lib/Hook.js:35:21
+  
+  - Compilation.js:1284 hooks.optimizeAssets.callAsync.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compilation.js:1284:35
+  
+  
+  - Hook.js:35 AsyncSeriesHook.lazyCompileHook [as _callAsync]
+    [mini-css-extract-plugin-NS-bug]/[tapable]/lib/Hook.js:35:21
+  
+  - Compilation.js:1275 hooks.optimizeChunkAssets.callAsync.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compilation.js:1275:32
+  
+  
+  - Hook.js:35 AsyncSeriesHook.lazyCompileHook [as _callAsync]
+    [mini-css-extract-plugin-NS-bug]/[tapable]/lib/Hook.js:35:21
+  
+  - Compilation.js:1270 hooks.additionalAssets.callAsync.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compilation.js:1270:36
+  
+  
+  - Hook.js:35 AsyncSeriesHook.lazyCompileHook [as _callAsync]
+    [mini-css-extract-plugin-NS-bug]/[tapable]/lib/Hook.js:35:21
+  
+  - Compilation.js:1266 hooks.optimizeTree.callAsync.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compilation.js:1266:32
+  
+  
+  - Hook.js:35 AsyncSeriesHook.lazyCompileHook [as _callAsync]
+    [mini-css-extract-plugin-NS-bug]/[tapable]/lib/Hook.js:35:21
+  
+  - Compilation.js:1203 Compilation.seal
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compilation.js:1203:27
+  
+  - Compiler.js:547 hooks.make.callAsync.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compiler.js:547:17
+  
+  
+  - Compilation.js:1054 _addModuleChain
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compilation.js:1054:12
+  
+  - Compilation.js:980 processModuleDependencies.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compilation.js:980:9
+  
+  - next_tick.js:131 _combinedTickCallback
+    internal/process/next_tick.js:131:7
+  
+  
+  - TypeError: this[NS] is not a function
+  
+  - Module not found: Error: Can't resolve 'react' in 'D:\test\mini-css-extract-    plugin-NS-bug':
+  
+  - Error: Can't resolve 'react' in 'D:\test\mini-css-extract-plugin-NS-bug'
+  
+  - Module not found: Error: Can't resolve 'react-dom/server' in 'D:\test\mini-c    ss-extract-plugin-NS-bug':
+  
+  - Error: Can't resolve 'react-dom/server' in 'D:\test\mini-css-extract-plugin-    NS-bug'
+  
+  - compiler.js:79 childCompiler.runAsChild
+    [mini-css-extract-plugin-NS-bug]/[html-webpack-plugin]/lib/compiler.js:79:16  
+  - Compiler.js:296 compile
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compiler.js:296:11
+  
+  - Compiler.js:553 hooks.afterCompile.callAsync.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compiler.js:553:14
+  
+  
+  - Hook.js:35 AsyncSeriesHook.lazyCompileHook [as _callAsync]
+    [mini-css-extract-plugin-NS-bug]/[tapable]/lib/Hook.js:35:21
+  
+  - Compiler.js:550 compilation.seal.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compiler.js:550:30
+  
+  
+  - Hook.js:35 AsyncSeriesHook.lazyCompileHook [as _callAsync]
+    [mini-css-extract-plugin-NS-bug]/[tapable]/lib/Hook.js:35:21
+  
+  - Compilation.js:1284 hooks.optimizeAssets.callAsync.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compilation.js:1284:35
+  
+  
+  - Hook.js:35 AsyncSeriesHook.lazyCompileHook [as _callAsync]
+    [mini-css-extract-plugin-NS-bug]/[tapable]/lib/Hook.js:35:21
+  
+  - Compilation.js:1275 hooks.optimizeChunkAssets.callAsync.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compilation.js:1275:32
+  
+  
+  - Hook.js:35 AsyncSeriesHook.lazyCompileHook [as _callAsync]
+    [mini-css-extract-plugin-NS-bug]/[tapable]/lib/Hook.js:35:21
+  
+  - Compilation.js:1270 hooks.additionalAssets.callAsync.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compilation.js:1270:36
+  
+  
+  - Hook.js:35 AsyncSeriesHook.lazyCompileHook [as _callAsync]
+    [mini-css-extract-plugin-NS-bug]/[tapable]/lib/Hook.js:35:21
+  
+  - Compilation.js:1266 hooks.optimizeTree.callAsync.err
+    [mini-css-extract-plugin-NS-bug]/[webpack]/lib/Compilation.js:1266:32
+  
+  
+</pre><script type="text/javascript" src="index.js?5fedbcc89c04b56b9f28"></script>
